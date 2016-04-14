@@ -1,0 +1,6 @@
+git init
+git status
+git add file
+git diff file
+git add file
+git commit -m "Complete first line of dialogue"

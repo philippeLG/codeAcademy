@@ -1,0 +1,109 @@
+# if / else
+if (/* Some condition */) {
+    // Do something
+} else if (/* Some other condition */) {
+    // Do something else
+} else {    // Otherwise
+    // Do a third thing
+}
+
+# Comparison Operators
+
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+
+# Logical Operators
+&&	and	(x < 10 && y > 1) is true
+||	or	(x == 5 || y == 5) is false
+!	not
+
+# Conditional (Ternary) Operator
+variablename = (condition) ? value1:value2 
+var voteable = (age < 18) ? "Too young":"Old enough";
+
+# boolean
+Operator		Description	Example	Same as	Result	Decimal
+&	AND		x = 5 & 1	0101 & 0001	0001	1
+|	OR		x = 5 | 1	0101 | 0001	0101	5
+~	NOT		x = ~ 5	 ~0101	1010	10
+^	XOR		x = 5 ^ 1	0101 ^ 0001	0100	4
+<<	Left shift	x = 5 << 1	0101 << 1	1010	10
+>>	Right shift	x = 5 >> 1	0101 >> 1	0010	2
+
+# for
+for (var counter = 1; counter < 6; counter++) {
+	console.log(counter);
+}
+counter ++
+counter --
+counter +=n
+counter -=n 
+
+# array 
+var arrayName = [data1, data2, data3];
+
+arrayName[2] -> data3
+arrayName.length -> 3
+
+var newArray = [[1,2,3],[1,2,3],[1,2,3]];
+
+# while
+while (condition) {
+    code block to be executed
+}
+ 
+understand = true;
+while(understand){
+	console.log("I'm learning while loops!");
+	understand = false;
+}
+
+# do while
+do {
+    code block to be executed
+}
+    while (condition);
+
+# switch 
+switch(expression) {
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default:
+        default code block
+}
+
+# Object 
+var phonebookEntry = {};
+
+phonebookEntry.name = 'Oxnard Montalvo';
+phonebookEntry.number = '(555) 555-5555';
+phonebookEntry.phone = function() {
+  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+phonebookEntry.phone();
+
+
+var myObj = {
+    type: 'fancy',
+    disposition: 'sunny'
+};
+
+var emptyObj = {};
+
+ou
+
+var myObj = new Object();
+myObj["name"] = "Charlie";
+myObj.name = "Charlie";
+

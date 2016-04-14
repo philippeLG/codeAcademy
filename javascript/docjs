@@ -1,0 +1,44 @@
+# message à confirmer 
+confirm("hello")
+
+# champ à saisir
+prompt("what 's your name")
+
+# boolean
+"I'm coding like a champ".length > 10 ==> true
+
+# console
+console.log("Hello")
+
+#List of comparison operators:
+> Greater than
+< Less than
+<= Less than or equal to
+>= Greater than or equal to
+=== Equal to
+!== Not equal to
+
+#data types:
+strings (e.g. "dogs go woof!")
+numbers (e.g. 4, 10)
+booleans (e.g. false, 5 > 4)
+
+# tests
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+    else {
+    console.log("You have a short name!");  
+}
+
+# substring
+"some word".substring(x, y)
+0 1 2 3 4
+| | | | | 
+h e l l o
+
+# variables
+var myAge = 46;
+console.log(myAge);
+
+

@@ -1,0 +1,47 @@
+#<html> and <body>
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1> Web Developpement </h1>
+    <p> We're learning HTML </p>
+  </body>
+</html>
+
+Everything inside a web page is nested inside the html element
+The body element contains the actual content of the web page - everything nested inside <body> and </body> shows up in the web browser
+The doctype at the start of the HTML file tells the browser which version of HTML you are using. The doctype is not an HTML element, so it doesn't have a closing tag. The doctype ensures that your web page displays consistently when its visited from different browsers.
+
+
+
+# heading elements
+Headings are described by heading elements. There are six levels of heading elements: h1 to h6.
+The h1 element is used to describe the main heading of the page.
+
+#Paragraphs
+<p>
+
+#Links
+<a>
+The defining feature of the Web is the presence of links. Clicking on links leads to other web pages. The a element is used to create links.
+The a element is similar to the h1 or p elements, but it has two key differences:
+First, it has an href attribute which equals the website you want to link to.
+Second, you get to choose the link text that users see on the page.
+<a href="https://www.airbnb.com/locations">'Learn More'> </a>
+
+#img
+<img src="https://goo.gl/Lva9p1">
+
+#liste
+bulleted list <ul> , elements <li>
+<ul> 
+  <li>Home</li> 
+  <li>About</li> 
+</ul> 
+
+
+# sections
+<div class="nav"> ...</div>
+A div element groups other elements together into sections of the web page, such as a navigation bar, the main body, and the footer.
+
+
+
